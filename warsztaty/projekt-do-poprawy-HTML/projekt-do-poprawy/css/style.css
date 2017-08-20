@@ -1,91 +1,55 @@
 body {
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    padding: 0;
 }
 
-#menu {
-  text-align: center;
-  background: #222;
-  
+nav#menu {
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    text-align: center;
 }
 
-#menu .menu-item {
-  display: inline-block;
-  padding: 25px;
-  list-style: none;
+nav#menu ul > li.menu-item {
+    display: inline-block;
 }
 
-#menu ul {
-  margin: 0;
+nav#menu > ul {
+    list-style-type: armenian;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-#menu .menu-item a{
-  text-decoration: none;
-  color: #fff;
+nav#menu li.menu-item {
+    float: center;
 }
 
-#menu .menu-item a:hover{
-  color: #999;
+nav#menu li.menu-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
 }
 
-#header {
-  position: relative;
-  text-align: center;
+#header > img {
+    max-width: 100%;
+    height: auto;
+    margin: auto
 }
 
-#header img{
-  width: 100%;
+h1 {
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    text-align: center;
+    width: 100%;
+    color: white;
 }
 
-#header #main-header-text {
-  position: absolute;
-  top: 50%;
-  font-size: 50px;
-  font-weight: 700;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  text-transform: uppercase;
-  color: #fff;
-  
-}
-
-#about {
-  margin: 30px 0;
-  padding: 0 50px;
-}
-
-#about #about-header{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#about .about-content{
-  text-align: center;
-}
-
-#contact {
-  padding: 30px 50px;
-  background: #222;
-}
-
-#contact #contact-header{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-#contact #contact-content {
-  text-align: center;
-  color: #fff;
-}
-
-#contact #contact-content a {
-  color: #fff;
-}
-
-#contact #contact-content a:hover {
-  color: #999;
+#header > h2 {
+    
 }
